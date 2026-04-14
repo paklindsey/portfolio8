@@ -1,0 +1,137 @@
+@font-face {
+  font-family: "Macklin Sans";
+  src: url("./assets/fonts/MacklinSans-Thin.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Macklin Sans";
+  src: url("./assets/fonts/MacklinSans-ThinItalic.otf") format("opentype");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Macklin Sans";
+  src: url("./assets/fonts/MacklinSans-Hairline.otf") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Macklin Sans";
+  src: url("./assets/fonts/MacklinSans-HairlineItalic.otf") format("opentype");
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Macklin Sans";
+  src: url("./assets/fonts/MacklinSans-ExtraLight.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Macklin Sans";
+  src: url("./assets/fonts/MacklinSans-ExtraLightIt.otf") format("opentype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Macklin Sans";
+  src: url("./assets/fonts/MacklinSans-Light.otf") format("opentype");
+  font-weight: 350;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Macklin Sans";
+  src: url("./assets/fonts/MacklinSans-LightItalic.otf") format("opentype");
+  font-weight: 350;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Macklin Sans";
+  src: url("./assets/fonts/MacklinSans-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Macklin Sans";
+  src: url("./assets/fonts/MacklinSans-Italic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Macklin Sans";
+  src: url("./assets/fonts/MacklinSans-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Macklin Sans";
+  src: url("./assets/fonts/MacklinSans-MediumItalic.otf") format("opentype");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Macklin Sans";
+  src: url("./assets/fonts/MacklinSans-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Macklin Sans";
+  src: url("./assets/fonts/MacklinSans-BoldItalic.otf") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Macklin Sans";
+  src: url("./assets/fonts/MacklinSans-ExtraBold.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Macklin Sans";
+  src: url("./assets/fonts/MacklinSans-ExtraBoldIt.otf") format("opentype");
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Macklin Sans";
+  src: url("./assets/fonts/MacklinSans-Black.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Macklin Sans";
+  src: url("./assets/fonts/MacklinSans-BlackItalic.otf") format("opentype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Macklin Sans", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #f2f2f2;
+}
+
+#root {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  letter-spacing: 0.5px;
+}
